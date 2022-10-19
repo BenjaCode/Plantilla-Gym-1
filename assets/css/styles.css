@@ -24,6 +24,11 @@ p{
     font-size: 32px;
 }
 
+.btn:hover{
+    background-color: #00a2e0;
+    color: #fff;
+}
+
 /* HEADER */
 #home{
     width: 100%;
