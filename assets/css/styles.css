@@ -283,3 +283,36 @@ p{
     width: 100%;
     vertical-align: top;
 }
+
+/* -- -- Buy Your Tickets -- -- */
+#buy-your-tickets{
+    background-image: url(../img/bg-buy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 0;
+}
+
+#buy-your-tickets .contenedor{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#buy-your-tickets .contenedor .contenedor-espacio{
+    width: 70%;
+}
+
+#buy-your-tickets .contenedor .contenedor-tickets{
+    width: 30%;
+    text-align: right;
+    color: #fff;
+}
+
+#buy-your-tickets .contenedor .contenedor-tickets .titulo{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#buy-your-tickets .contenedor .contenedor-tickets .descripcion{
+    margin-bottom: 40px;
+}
