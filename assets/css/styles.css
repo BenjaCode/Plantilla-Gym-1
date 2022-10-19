@@ -132,6 +132,29 @@ p{
     margin-bottom: 40px;
 }
 
+/* -- -- Characteristics -- -- */
+#characteristics{
+    background-color: #141414;
+    padding: 80px 0;
+}
+
+#characteristics .contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#characteristics .contenedor .caja-caracteristica{
+    width: 30%;
+    color: #fff;
+}
+
+#characteristics .contenedor .caja-caracteristica .nombre{
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
 /* -- -- Nature Is Above All -- -- */
 #nature-is-above-all .contenedor{
     display: flex;
