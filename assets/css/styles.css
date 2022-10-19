@@ -31,11 +31,9 @@ p{
 
 /* HEADER */
 #home{
-    width: 100%;
     background-image: url(../img/bg-header.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 20px;
+    background-size: cover;
 }
 /* NAV */
 #home nav{
@@ -82,18 +80,18 @@ p{
     color: #fff;
 }
 
-#home .contenedor .inicio{
+#home .contenedor-texto .inicio{
     height: 740px;
     text-align: center;
 }
 
-#home .contenedor .inicio .titulo{
+#home .contenedor-texto .inicio .titulo{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#home .contenedor .inicio .titulo h2{
+#home .contenedor-texto .inicio .titulo h2{
     position: absolute;
     font-size: 160px;
     color: transparent;
@@ -102,19 +100,19 @@ p{
     -webkit-text-stroke: 4px #fff;
 }
 
-#home .contenedor .inicio .titulo .front{
+#home .contenedor-texto .inicio .titulo .front{
     -webkit-text-stroke: 4px #fff;
 }
 
-#home .contenedor .inicio .titulo .back{
+#home .contenedor-texto .inicio .titulo .back{
     filter: blur(4px);
 }
 
-#home .contenedor .inicio p{
+#home .contenedor-texto .inicio p{
     color: #fff;
     margin-top: 460px;
 }
 
-#home .contenedor .inicio button{
-    margin-top: 40px;
+#home .contenedor-texto .inicio button{
+    margin: 40px 0;
 }
