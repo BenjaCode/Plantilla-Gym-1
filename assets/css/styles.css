@@ -203,6 +203,44 @@ p{
     text-transform: uppercase;
 }
 
+/* -- -- What Exactly We Do -- -- */
+#what-exactly-we-do{
+    background-color: #000;
+    padding: 160px 0;
+}
+
+#what-exactly-we-do .contenedor .titulo-descripcion{
+    color: #00a2e0;
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+#what-exactly-we-do .contenedor .titulo{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#what-exactly-we-do .contenedor .contenedor-hacemos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#what-exactly-we-do .contenedor .contenedor-hacemos .caja-hacemos{
+    width: 30%;
+    color: #fff;
+    display: inline-block;
+}
+
+#what-exactly-we-do .contenedor .contenedor-hacemos .caja-hacemos .imagen{
+    margin-bottom: 20px;
+}
+
+#what-exactly-we-do .contenedor .contenedor-hacemos .caja-hacemos .imagen img{
+    height: 108px;
+}
+
 /* -- -- Nature Is Above All -- -- */
 #nature-is-above-all .contenedor{
     display: flex;
