@@ -11,6 +11,19 @@
     margin: 0 auto;
 }
 
+p{
+    font-size: 16px;
+}
+
+.btn{
+    padding: 16px 32px;
+    color: #00a2e0;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 8px;
+    font-size: 32px;
+}
+
 /* HEADER */
 #home{
     width: 100%;
