@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* -- -- Variables -- -- */
@@ -153,6 +154,53 @@ p{
 #characteristics .contenedor .caja-caracteristica .nombre{
     text-transform: uppercase;
     margin-bottom: 16px;
+}
+
+/* -- -- Priorities Go First -- -- */
+#priorities-go-first{
+    background-image: url(../img/bg-priorities.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 0 0;
+    min-height: 760px;
+}
+
+#priorities-go-first .contenedor .titulo-descripcion{
+    color: #00a2e0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#priorities-go-first .contenedor .titulo-descripcion .titulo{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#priorities-go-first .contenedor .contenedor-prioridades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#priorities-go-first .contenedor .contenedor-prioridades .caja-prioridad{
+    width: 30%;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+
+#priorities-go-first .contenedor .contenedor-prioridades .caja-prioridad .titulo{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#priorities-go-first .contenedor .contenedor-prioridades .caja-prioridad .comentario{
+    margin-bottom: 40px;
+}
+
+#priorities-go-first .contenedor .contenedor-prioridades .caja-prioridad .persona{
+    text-transform: uppercase;
 }
 
 /* -- -- Nature Is Above All -- -- */
