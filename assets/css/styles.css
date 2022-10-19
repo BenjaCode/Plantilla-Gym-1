@@ -338,3 +338,18 @@ p{
 #schedule .contenedor .caja-horario .dias{
     margin-bottom: 8px;
 }
+
+/* -- -- Testimony 2 -- -- */
+#testimony-2{
+    background-color: #000;
+    padding: 160px 0 80px 0;
+}
+
+#testimony-2 .contenedor{
+    color: #00a2e0;
+    text-align: center;
+}
+
+#testimony-2 .contenedor .descripcion{
+    margin-bottom: 40px;
+}
