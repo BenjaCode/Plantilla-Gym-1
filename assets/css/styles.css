@@ -241,6 +241,21 @@ p{
     height: 108px;
 }
 
+/* -- -- Testimony 1 -- -- */
+#testimony-1{
+    background-color: #141414;
+    padding: 160px 0 80px 0;
+}
+
+#testimony-1 .contenedor{
+    color: #00a2e0;
+    text-align: center;
+}
+
+#testimony-1 .contenedor .descripcion{
+    margin-bottom: 40px;
+}
+
 /* -- -- Nature Is Above All -- -- */
 #nature-is-above-all .contenedor{
     display: flex;
