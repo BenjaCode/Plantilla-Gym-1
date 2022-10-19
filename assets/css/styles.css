@@ -316,3 +316,25 @@ p{
 #buy-your-tickets .contenedor .contenedor-tickets .descripcion{
     margin-bottom: 40px;
 }
+
+/* -- -- Schedule -- -- */
+#schedule{
+    background-color: #141414;
+    color: #fff;
+    padding: 80px 0;
+}
+
+#schedule .contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#schedule .contenedor .caja-horario{
+    width: 30%;
+    text-align: center;
+}
+
+#schedule .contenedor .caja-horario .dias{
+    margin-bottom: 8px;
+}
