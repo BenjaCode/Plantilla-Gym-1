@@ -81,7 +81,7 @@ p{
 }
 
 #home .contenedor-texto .inicio{
-    height: 740px;
+    height: 760px;
     text-align: center;
 }
 
@@ -115,4 +115,21 @@ p{
 
 #home .contenedor-texto .inicio button{
     margin: 40px 0;
+}
+
+/* Nature Is Above All */
+#nature-is-above-all .contenedor{
+    display: flex;
+    flex-direction: row;
+}
+#nature-is-above-all .contenedor .texto{
+    width: 50%;
+}
+
+#nature-is-above-all .contenedor .imagen{
+    width: 50%;
+}
+
+#nature-is-above-all .contenedor .imagen img{
+    width: 100%;
 }
