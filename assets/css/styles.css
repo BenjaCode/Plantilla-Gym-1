@@ -353,3 +353,99 @@ p{
 #testimony-2 .contenedor .descripcion{
     margin-bottom: 40px;
 }
+/* -- -- FOOTER -- -- */
+footer{
+    background-color: #141414;
+    padding: 80px 0;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .contenedor .redes-sociales{
+    width: 50%;
+    text-align: left;
+    color: #fff;
+}
+
+footer .contenedor .redes-sociales .titulo{
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+footer .contenedor .redes-sociales .descripcion{
+    width: 50%;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+footer .contenedor .redes-sociales .contenedor-redes-sociales{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .contenedor .redes-sociales .contenedor-redes-sociales i{
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    font-size: 24px;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+footer .contenedor .redes-sociales .contenedor-redes-sociales i:hover{
+    color: #00a2e0;
+    cursor: pointer;
+}
+
+footer .contenedor .redes-sociales .contenedor-redes-sociales i:nth-child(1){
+    padding: 8px 12.5px;
+}
+
+footer .contenedor .redes-sociales .contenedor-redes-sociales i:nth-child(2){
+    padding: 8px 9.5px;
+}
+
+footer .contenedor .redes-sociales .contenedor-redes-sociales i:nth-child(4){
+    padding: 8px 6.5px;
+}
+
+footer .contenedor .contactos{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .contenedor .contactos .caja-contacto{
+    color: #fff;
+    text-align: center;
+}
+
+footer .contenedor .contactos .caja-contacto .titulo{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer .contenedor .contactos .caja-contacto a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 10px;
+}
+
+footer .contenedor .contactos .caja-contacto a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.barra{
+    height: 20px;
+    background-color: #00a2e0;
+}
