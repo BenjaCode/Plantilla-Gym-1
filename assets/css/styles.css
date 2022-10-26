@@ -272,13 +272,17 @@ p{
 #nature-is-above-all .contenedor-nature .texto{
     width: 50%;
     text-align: center;
-    margin: 80px;
+    margin: 80px auto;
     color: #00a2e0;
 }
 
 #nature-is-above-all .contenedor-nature .texto .titulo{
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+#nature-is-above-all .contenedor-nature .texto .descripcion{
+    padding: 0 40px;
 }
 
 #nature-is-above-all .contenedor-nature .imagen{
