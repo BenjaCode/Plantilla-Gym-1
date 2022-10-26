@@ -70,6 +70,7 @@ p{
     color: #00a2e0;
     padding: 8px 0;
     margin: 0 16px 0 0;
+    border-bottom: 1px solid transparent;
 }
 
 #home nav .contenedor .menu a:last-child{
@@ -142,6 +143,7 @@ p{
 #characteristics .contenedor{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
 }
@@ -178,6 +180,7 @@ p{
 
 #priorities-go-first .contenedor .contenedor-prioridades{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -222,6 +225,7 @@ p{
 
 #what-exactly-we-do .contenedor .contenedor-hacemos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
@@ -260,9 +264,11 @@ p{
 #nature-is-above-all .contenedor-nature{
     background-color: #000;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
+
 #nature-is-above-all .contenedor-nature .texto{
     width: 50%;
     text-align: center;
@@ -293,9 +299,9 @@ p{
 }
 
 #buy-your-tickets .contenedor{
-    justify-content: center;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 #buy-your-tickets .contenedor .contenedor-espacio{
@@ -326,6 +332,7 @@ p{
 
 #schedule .contenedor{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -361,6 +368,7 @@ footer{
 
 footer .contenedor{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -423,6 +431,7 @@ footer .contenedor .contactos{
 }
 
 footer .contenedor .contactos .caja-contacto{
+    width: 15%;
     color: #fff;
     text-align: center;
 }
@@ -448,4 +457,134 @@ footer .contenedor .contactos .caja-contacto a:hover{
 .barra{
     height: 20px;
     background-color: #00a2e0;
+}
+
+/* -- -- Media Queries -- -- */
+@media screen and (max-width: 768px){
+    #home nav{
+        width: 100%;
+        background-color: #000;
+        margin-top: 0;
+        position: fixed;
+        z-index: 1;
+    }
+
+    #home nav .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #home nav .contenedor .logo{
+        width: 100%;
+        text-align: center;
+        margin: 16px 0;
+    }
+
+    #home nav .contenedor .menu{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #home nav .contenedor .menu a{
+        margin: 0 8px;
+    }
+
+    #home nav .contenedor .menu a:last-child{
+        margin: 0 8px;
+    }
+
+    #home .contenedor-texto .inicio .titulo h2{
+        font-size: 80px;
+    }
+
+    #characteristics .contenedor .caja-caracteristica{
+        width: 100%;
+        color: #fff;
+        margin-bottom: 40spx;
+    }
+
+    #priorities-go-first{
+        background-position: center;
+    }
+
+    #priorities-go-first .contenedor .contenedor-prioridades .caja-prioridad{
+        width: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        text-align: center;
+        color: #fff;
+        padding: 40px;
+        margin-bottom: 40px;
+    }
+
+    #what-exactly-we-do .contenedor .titulo{
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+
+    #what-exactly-we-do .contenedor .contenedor-hacemos .caja-hacemos{
+        width: 100%;
+        color: #fff;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    #nature-is-above-all .contenedor-nature .texto{
+        width: 100%;
+        text-align: center;
+        margin: 80px;
+        color: #00a2e0;
+    }
+
+    #nature-is-above-all .contenedor-nature .imagen{
+        width: 100%;
+    }
+
+    #buy-your-tickets{
+        background-position: center;
+    }
+
+    #buy-your-tickets .contenedor .contenedor-espacio{
+        width: 0%;
+    }
+    
+    #buy-your-tickets .contenedor .contenedor-tickets{
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+
+    #schedule .contenedor .caja-horario{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    footer .contenedor .redes-sociales{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    footer .contenedor .redes-sociales .descripcion{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .contenedor .redes-sociales .contenedor-redes-sociales{
+        width: 100%;
+    }
+
+    footer .contenedor .contactos{
+        width: 100%;
+    }
+
+    footer .contenedor .contactos .caja-contacto{
+        width: 30%;
+    }
 }
